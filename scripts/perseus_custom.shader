@@ -59,32 +59,6 @@ textures/perseus_custom/fog
 
 // blood
 
-textures/perseus_custom/blood1
-{
-	qer_editorimage textures/perseus_custom_src/blood1_d
-	surfaceparm noimpact
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonoffset
-	{
-		map textures/perseus_custom_src/blood1_d
-		blendfunc filter
-	}
-}
-
-textures/perseus_custom/blood2
-{
-	qer_editorimage textures/perseus_custom_src/blood2_d
-	surfaceparm noimpact
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonoffset
-	{
-		map textures/perseus_custom_src/blood2_d
-		blendfunc filter
-	}
-}
-
 textures/perseus_custom/blood3
 {
 	qer_editorimage textures/perseus_custom_src/blood3_d
@@ -97,7 +71,6 @@ textures/perseus_custom/blood3
 		blendfunc filter
 	}
 }
-
 
 // glass
 
