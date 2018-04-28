@@ -4,7 +4,7 @@ perseus/steam
 	{
 		particle
 		{
-		shader sync textures/perseus_custom/steam_s
+		shader sync textures/perseus_custom/steam
 		displacement 0 0 0 0
 
 		velocityType		static
@@ -40,7 +40,7 @@ perseus/lghtspark
   {
     particle
     {
-      shader sync gfx/sprites/spark.tga
+      shader sync gfx/sprites/spark
 
       displacement 0 0 0 ~2.0
 
@@ -64,10 +64,9 @@ perseus/lghtspark
       overdrawProtection
     }
 
-
     particle
     {
-      shader sync gfx/sprites/spark.tga
+      shader sync gfx/sprites/spark
 
       displacement 0 0 0 ~2.0
 

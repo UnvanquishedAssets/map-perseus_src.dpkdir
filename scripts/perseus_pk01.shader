@@ -8,7 +8,7 @@ textures/perseus_pk01/door01a_orange_50
 	diffuseMap          textures/shared_pk01_src/door01a_d
 	normalMap           textures/shared_pk01_src/door01_n
 	specularMap         textures/shared_pk01_src/door01_s
-	glowMap             textures/shared_pk01_src/door01_a
+	glowMap             textures/shared_pk01_src/door01_g
 }
 
 textures/perseus_pk01/door01a_green_50
@@ -21,7 +21,7 @@ textures/perseus_pk01/door01a_green_50
 	diffuseMap          textures/shared_pk01_src/door01a_d
 	normalMap           textures/shared_pk01_src/door01_n
 	specularMap         textures/shared_pk01_src/door01_s
-	glowMap             textures/perseus_pk01_src/door01_a_g
+	glowMap             textures/perseus_pk01_src/door01_green_g
 }
 
 textures/perseus_pk01/door01a_red_50
@@ -34,5 +34,5 @@ textures/perseus_pk01/door01a_red_50
 	diffuseMap          textures/shared_pk01_src/door01a_d
 	normalMap           textures/shared_pk01_src/door01_n
 	specularMap         textures/shared_pk01_src/door01_s
-	glowMap             textures/perseus_pk01_src/door01_a_r
+	glowMap             textures/perseus_pk01_src/door01_red_g
 }
