@@ -1,3 +1,13 @@
+beta 3
+????-??-??
+
+- reduced Cell Block size slightly;
+- disappearing doors fix (Cell Block Stairs);
+- further design improvements (mainly Canteen, Cell Block, Cooling, Water Tank Stairs);
+- increased overall light values;
+- fixed sounds (openAL stereo issue): crusher and scream;
+- added more playerclip and non-solid details;
+
 beta 2
 2011-02-19
 

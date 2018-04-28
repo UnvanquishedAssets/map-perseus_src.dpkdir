@@ -35,6 +35,7 @@ textures/perseus/blue-cover1_l1_88_nonsolid
 
 textures/perseus/steam_s
 {
+	qer_editorimage textures/perseus/steam.tga
 	entityMergable
 	cull none
 	{
@@ -58,7 +59,7 @@ textures/perseus/fog
 
 }
 
-//LIGHTS
+// lights
 
 textures/perseus/cubelight_32_blue_s_5k
 {
