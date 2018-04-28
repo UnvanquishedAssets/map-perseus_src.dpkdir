@@ -1,4 +1,3 @@
-perseus
 perseus_custom
 perseus_env
 perseus_ex
