@@ -1,0 +1,34 @@
+perseus/steam
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/perseus/steam_s
+		displacement 0 0 0 0
+
+		velocityType		static
+	
+		velocityDir		linear
+	
+		velocityMagnitude	50
+		velocity		0 0 -1 ~15
+
+		accelerationType	static
+		accelerationDir		linear
+		acceleration		0 0 -1 ~5
+		accelerationMagnitude	25
+
+
+		radius		0 5 40
+		alpha		250 .5 0
+		rotation	0 ~360 ~360
+		bounce		0.0
+
+		lifeTime 2000
+		}
+	count infinite
+	delay 0
+	period 45 - ~0%
+	}
+}
