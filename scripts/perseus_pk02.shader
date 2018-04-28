@@ -2,16 +2,16 @@
 
 textures/perseus_pk02/pk02_floor03_C
 {
-	qer_editorimage textures/perseus_pk02/pk02_floor03_C.tga
-	normalmap textures/perseus_pk02/pk02_floor03_N.tga
-	specularmap textures/perseus_pk02/pk02_floor03_S.tga
+	qer_editorimage textures/perseus_pk02_src/pk02_floor03_C
+	normalmap textures/perseus_pk02_src/pk02_floor03_N
+	specularmap textures/perseus_pk02_src/pk02_floor03_S
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	surfaceparm alphashadow
 	nopicmip
 	{
-		map textures/perseus_pk02/pk02_floor03_C.tga
+		map textures/perseus_pk02_src/pk02_floor03_C
 		stage diffusemap
 		alphafunc GE128
 	}
@@ -19,19 +19,41 @@ textures/perseus_pk02/pk02_floor03_C
 
 textures/perseus_pk02/pk02_floor07_C
 {
-	qer_editorimage textures/perseus_pk02/pk02_floor07_C.tga
-	normalmap textures/perseus_pk02/pk02_floor07_N.tga
-	specularmap textures/perseus_pk02/pk02_floor07_S.tga
+	qer_editorimage textures/perseus_pk02_src/pk02_floor07_C
+	normalmap textures/perseus_pk02_src/pk02_floor07_N
+	specularmap textures/perseus_pk02_src/pk02_floor07_S
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	surfaceparm alphashadow
 	nopicmip
 	{
-		map textures/perseus_pk02/pk02_floor07_C.tga
+		map textures/perseus_pk02_src/pk02_floor07_C
 		stage diffusemap
 		alphafunc GE128
 	}
+}
+
+// black background
+
+textures/perseus_pk02/pk02_floor03_C_s
+{
+	qer_editorimage textures/perseus_pk02_src/pk02_floor03_C
+    diffusemap textures/perseus_pk02_src/pk02_floor03_C
+   	normalmap textures/perseus_pk02_src/pk02_floor03_N
+	specularmap textures/perseus_pk02_src/pk02_floor03_S
+	surfaceparm nomarks
+	surfaceparm metalsteps
+}
+
+textures/perseus_pk02/pk02_floor07_C_s
+{
+	qer_editorimage textures/perseus_pk02_src/pk02_floor07_C
+    diffusemap textures/perseus_pk02_src/pk02_floor07_C
+   	normalmap textures/perseus_pk02_src/pk02_floor07_N
+	specularmap textures/perseus_pk02_src/pk02_floor07_S
+	surfaceparm nomarks
+	surfaceparm metalsteps
 }
 
 // decals
@@ -43,7 +65,7 @@ textures/perseus_pk02/pk02_dec_num08
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/perseus_pk02/pk02_dec_num08.tga
+		map textures/perseus_pk02_src/pk02_dec_num08
 		blendfunc filter
 	}
 }
@@ -55,7 +77,7 @@ textures/perseus_pk02/pk02_dec_numC
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/perseus_pk02/pk02_dec_numC.tga
+		map textures/perseus_pk02_src/pk02_dec_numC
 		blendfunc filter
 	}
 }
@@ -65,16 +87,16 @@ textures/perseus_pk02/pk02_dec_numC
 // small yellow
 textures/perseus_pk02/pk02_light01a_C
 {
-	qer_editorimage textures/perseus_pk02/pk02_light01a_C.tga
-	diffusemap textures/perseus_pk02/pk02_light01a_C.tga
-	normalmap textures/perseus_pk02/pk02_light01_N.tga
-	specularmap textures/perseus_pk02/pk02_light01_S.tga
+	qer_editorimage textures/perseus_pk02_src/pk02_light01a_C
+	diffusemap textures/perseus_pk02_src/pk02_light01a_C
+	normalmap textures/perseus_pk02_src/pk02_light01_N
+	specularmap textures/perseus_pk02_src/pk02_light01_S
     surfaceparm nonsolid
 	surfaceparm nomarks
 	q3map_surfacelight 4000
 	q3map_lightRGB 1 .7 .4
 	{
-		map textures/perseus_pk02/pk02_light01a_I.tga
+		map textures/perseus_pk02_src/pk02_light01a_I
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -82,90 +104,16 @@ textures/perseus_pk02/pk02_light01a_C
 // small yellow strong
 textures/perseus_pk02/pk02_light01a_8k
 {
-	qer_editorimage textures/perseus_pk02/pk02_light01a_C.tga
-	diffusemap textures/perseus_pk02/pk02_light01a_C.tga
-	normalmap textures/perseus_pk02/pk02_light01_N.tga
-	specularmap textures/perseus_pk02/pk02_light01_S.tga
+	qer_editorimage textures/perseus_pk02_src/pk02_light01a_C
+	diffusemap textures/perseus_pk02_src/pk02_light01a_C
+	normalmap textures/perseus_pk02_src/pk02_light01_N
+	specularmap textures/perseus_pk02_src/pk02_light01_S
     surfaceparm nonsolid
 	surfaceparm nomarks
 	q3map_surfacelight 8000
 	q3map_lightRGB 1 .7 .4
 	{
-		map textures/perseus_pk02/pk02_light01a_I.tga
+		map textures/perseus_pk02_src/pk02_light01a_I
 		blendfunc GL_ONE GL_ONE
 	}
-}
-
-// pipes
-textures/perseus_pk02/pk02_pipes01_C
-{
-	qer_editorimage textures/perseus_pk02/pk02_pipes01_C.tga
-	diffusemap textures/perseus_pk02/pk02_pipes01_C.tga
-	normalmap textures/perseus_pk02/pk02_pipes01_N.tga
-	specularmap textures/perseus_pk02/pk02_pipes01_S.tga
-    surfaceparm nonsolid
-	surfaceparm nomarks
-	q3map_surfacelight 50
-	q3map_lightRGB .6 .8 1
-	{
-		map textures/perseus_pk02/pk02_pipes01a_I.tga
-		blendfunc GL_ONE GL_ONE
-	}
-}
-
-// normal maps
-
-textures/perseus_pk02/pk02_floor03_C_s
-{
-	qer_editorimage textures/perseus_pk02/pk02_floor03_C.tga
-    diffusemap textures/perseus_pk02/pk02_floor03_C.tga
-   	normalmap textures/perseus_pk02/pk02_floor03_N.tga
-	specularmap textures/perseus_pk02/pk02_floor03_S.tga
-	surfaceparm nomarks
-	surfaceparm metalsteps
-}
-
-textures/perseus_pk02/pk02_floor07_C_s
-{
-	qer_editorimage textures/perseus_pk02/pk02_floor07_C.tga
-    diffusemap textures/perseus_pk02/pk02_floor07_C.tga
-   	normalmap textures/perseus_pk02/pk02_floor07_N.tga
-	specularmap textures/perseus_pk02/pk02_floor07_S.tga
-	surfaceparm nomarks
-	surfaceparm metalsteps
-}
-
-textures/perseus_pk02/pk02_panels01a_C
-{
-	diffusemap textures/perseus_pk02/pk02_panels01a_C.tga
-	normalmap textures/perseus_pk02/pk02_panels01a_N.tga
-	specularmap textures/perseus_pk02/pk02_panels01a_S.tga
-}
-
-textures/perseus_pk02/pk02_panels01b_C
-{
-	diffusemap textures/perseus_pk02/pk02_panels01b_C.tga
-	normalmap textures/perseus_pk02/pk02_panels01b_N.tga
-	specularmap textures/perseus_pk02/pk02_panels01b_S.tga
-}
-
-textures/perseus_pk02/pk02_panels01c_C
-{
-	diffusemap textures/perseus_pk02/pk02_panels01c_C.tga
-	normalmap textures/perseus_pk02/pk02_panels01c_N.tga
-	specularmap textures/perseus_pk02/pk02_panels01c_S.tga
-}
-
-textures/perseus_pk02/pk02_sand01_C
-{
-	diffusemap textures/perseus_pk02/pk02_sand01_C.tga
-	normalmap textures/perseus_pk02/pk02_sand01_N.tga
-	specularmap textures/perseus_pk02/pk02_sand01_S.tga
-}
-
-textures/perseus_pk02/pk02_wall08a_C
-{
-	diffusemap textures/perseus_pk02/pk02_wall08a_C.tga
-	normalmap textures/perseus_pk02/pk02_wall08_N.tga
-	specularmap textures/perseus_pk02/pk02_wall08_S.tga
 }
