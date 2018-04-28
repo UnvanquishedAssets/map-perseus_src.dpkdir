@@ -19,6 +19,32 @@ textures/perseus/ceiling2_l3_1a_s
 	}
 }
 
+textures/perseus/blue-cover1_l1_88_nonsolid
+{
+	qer_editorimage textures/perseus/blue-cover1_l1_88.jpg
+	surfaceparm nonsolid
+	{
+		map textures/perseus/blue-cover1_l1_88.jpg
+	}
+	{
+		map $lightmap
+		blendfunc filter
+		tcGen lightmap
+	}
+}
+
+textures/perseus/steam_s
+{
+	entityMergable
+	cull none
+	{
+		map textures/perseus/steam.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen		vertex
+		alphaGen	vertex
+	}
+}
+
 textures/perseus/fog
 {
 	qer_editorimage textures/perseus/black.jpg
@@ -219,54 +245,4 @@ textures/perseus/light5_1k_blue
 		map textures/perseus/light5.blend.jpg
 		blendfunc GL_ONE GL_ONE
 	}
-}
-
-textures/perseus/blue-cover1_l1_88_nonsolid
-{
-	qer_editorimage textures/perseus/blue-cover1_l1_88.jpg
-	surfaceparm nonsolid
-	{
-		map textures/perseus/blue-cover1_l1_88.jpg
-	}
-	{
-		map $lightmap
-		blendfunc filter
-		tcGen lightmap
-	}
-}
-
-textures/perseus/steam_s
-{
-	entityMergable
-	cull none
-	{
-		map textures/perseus/steam.tga
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen		vertex
-		alphaGen	vertex
-	}
-}
-
-textures/perseus/light2_5k_flicker
-{
-	qer_editorimage textures/perseus/light2.jpg
-	surfaceparm nomarks
-	q3map_surfacelight 5000
-	q3map_lightRGB 1 .75 .5
-	q3map_lightStyle 1
-	{
-		map $lightmap 
-		rgbGen identity
-		tcGen lightmap 
-	}
-	{
-		map textures/perseus/light2.jpg
-		blendfunc GL_DST_COLOR GL_ZERO 
-		rgbGen identity
-	}
-	{ 
-		map textures/perseus/light2.blend.jpg 
-		rgbGen wave sawtooth 0 1 0 0.5 
-		blendfunc GL_ONE GL_ONE 
-	} 
 }
