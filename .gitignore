@@ -1,0 +1,9 @@
+/.paktrace/
+/build/
+/maps/*/lm_*
+/maps/*.autosave.map
+/maps/*.bak
+/maps/*.bsp
+/maps/*.lin
+/maps/*.prt
+/maps/*.srf
