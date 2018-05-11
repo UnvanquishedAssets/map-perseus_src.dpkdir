@@ -98,7 +98,7 @@ textures/perseus_pk02/pk02_light01a
 	q3map_surfacelight 4000
 	q3map_lightRGB 1 .7 .4
 	{
-		map textures/perseus_pk02_src/pk02_light01a_g
+		map textures/perseus_pk02_src/pk02_light01a_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -107,7 +107,7 @@ textures/perseus_pk02/pk02_light01a
 textures/perseus_pk02/pk02_light01a_8k
 {
 	qer_editorimage textures/perseus_pk02_src/pk02_light01a_d
-	diffuseMap textures/perseus_pk02_src/pk02_light01a
+	diffuseMap textures/perseus_pk02_src/pk02_light01a_d
 	normalMap textures/perseus_pk02_src/pk02_light01_n
 	specularMap textures/perseus_pk02_src/pk02_light01_s
     surfaceparm nonsolid
@@ -115,7 +115,7 @@ textures/perseus_pk02/pk02_light01a_8k
 	q3map_surfacelight 8000
 	q3map_lightRGB 1 .7 .4
 	{
-		map textures/perseus_pk02_src/pk02_light01a_g
+		map textures/perseus_pk02_src/pk02_light01a_a
 		blendfunc GL_ONE GL_ONE
 	}
 }

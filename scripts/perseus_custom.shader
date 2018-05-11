@@ -112,7 +112,7 @@ textures/perseus_custom/steam
 // tiny decal blue
 textures/perseus_custom/light01_blue
 {
-	qer_editorimage textures/perseus_custom_src/light01_blue_g
+	qer_editorimage textures/perseus_custom_src/light01_blue_a
 	normalMap textures/perseus_custom_src/light01_n
 	specularMap textures/perseus_custom_src/light01_s
 	surfaceparm nomarks
@@ -128,7 +128,7 @@ textures/perseus_custom/light01_blue
 		alphafunc GE128
 	}
 	{
-		map textures/perseus_custom_src/light01_blue_g
+		map textures/perseus_custom_src/light01_blue_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -136,7 +136,7 @@ textures/perseus_custom/light01_blue
 // tiny decal red
 textures/perseus_custom/light01_red
 {
-	qer_editorimage textures/perseus_custom_src/light01_red_g
+	qer_editorimage textures/perseus_custom_src/light01_red_a
 	normalMap textures/perseus_custom_src/light01_n
 	specularMap textures/perseus_custom_src/light01_s
 	surfaceparm nomarks
@@ -152,7 +152,7 @@ textures/perseus_custom/light01_red
 		alphafunc GE128
 	}
 	{
-		map textures/perseus_custom_src/light01_red_g
+		map textures/perseus_custom_src/light01_red_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
