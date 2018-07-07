@@ -1,6 +1,6 @@
 textures/perseus_ex/base1a_nonsolid
 {
-	qer_editorImage     textures/shared_ex_src/base1a_p
+	qer_editorImage     textures/shared_ex_src/base1a_d
 
 	surfaceparm         metalsteps
     surfaceparm         nonsolid
@@ -12,7 +12,7 @@ textures/perseus_ex/base1a_nonsolid
 
 textures/perseus_ex/light1_blue_10k
 {
-	qer_editorImage     textures/shared_ex_src/light1_p
+	qer_editorImage     textures/shared_ex_src/light1_d
 
 	q3map_surfacelight  10000
 	q3map_lightRGB      0.482 0.702 1.000
@@ -31,7 +31,7 @@ textures/perseus_ex/light1_blue_10k
 
 textures/perseus_ex/light1_orange_10k
 {
-	qer_editorImage     textures/shared_ex_src/light1_p
+	qer_editorImage     textures/shared_ex_src/light1_d
 
 	q3map_surfacelight  10000
 	q3map_lightRGB      1.000 0.729 0.376
@@ -50,7 +50,7 @@ textures/perseus_ex/light1_orange_10k
 
 textures/perseus_ex/light2_orange_500
 {
-	qer_editorImage     textures/shared_ex_src/light2_p
+	qer_editorImage     textures/shared_ex_src/light2_d
 
 	q3map_surfacelight  500
 	q3map_lightRGB      1.000 0.729 0.376

@@ -1,6 +1,6 @@
 textures/perseus_pk01/door01a_orange_50
 {
-	qer_editorImage     textures/shared_pk01_src/door01a_p
+	qer_editorImage     textures/shared_pk01_src/door01a_d
 
 	q3map_surfacelight  50
 	q3map_lightRGB      1 .6 0
@@ -13,7 +13,7 @@ textures/perseus_pk01/door01a_orange_50
 
 textures/perseus_pk01/door01a_green_50
 {
-	qer_editorImage     textures/shared_pk01_src/door01a_p
+	qer_editorImage     textures/shared_pk01_src/door01a_d
 
 	q3map_surfacelight  50
 	q3map_lightRGB      .7 1 .5
@@ -26,7 +26,7 @@ textures/perseus_pk01/door01a_green_50
 
 textures/perseus_pk01/door01a_red_50
 {
-	qer_editorImage     textures/shared_pk01_src/door01a_p
+	qer_editorImage     textures/shared_pk01_src/door01a_d
 
 	q3map_surfacelight  50
 	q3map_lightRGB      1 0 0
