@@ -2,7 +2,7 @@
 
 textures/perseus_custom/base01
 {
-	qer_editorimage textures/perseus_custom_src/base01_d
+	qer_editorImage textures/perseus_custom_src/base01_d
 	diffuseMap textures/perseus_custom_src/base01_d
 	normalMap textures/perseus_custom_src/base01_n
 	specularMap textures/perseus_custom_src/base01_s
@@ -10,7 +10,7 @@ textures/perseus_custom/base01
 
 textures/perseus_custom/base01a
 {
-	qer_editorimage textures/perseus_custom_src/base01a_d
+	qer_editorImage textures/perseus_custom_src/base01a_d
 	diffuseMap textures/perseus_custom_src/base01a_d
 	normalMap textures/perseus_custom_src/base01a_n
 	specularMap textures/perseus_custom_src/base01a_s
@@ -18,7 +18,7 @@ textures/perseus_custom/base01a
 
 textures/perseus_custom/base02
 {
-	qer_editorimage textures/perseus_custom_src/base02_d
+	qer_editorImage textures/perseus_custom_src/base02_d
 	diffuseMap textures/perseus_custom_src/base02_d
 	normalMap textures/perseus_custom_src/base02_n
 	specularMap textures/perseus_custom_src/base02_s
@@ -26,7 +26,7 @@ textures/perseus_custom/base02
 
 textures/perseus_custom/trim1
 {
-	qer_editorimage textures/perseus_custom_src/trim1_d
+	qer_editorImage textures/perseus_custom_src/trim1_d
 	diffuseMap textures/perseus_custom_src/trim1_d
 	normalMap textures/perseus_custom_src/trim1_n
 	specularMap textures/perseus_custom_src/trim1_s
@@ -36,7 +36,7 @@ textures/perseus_custom/trim1
 
 textures/perseus_custom/base01a_nonsolid
 {
-	qer_editorimage textures/perseus_custom_src/base01a_d
+	qer_editorImage textures/perseus_custom_src/base01a_d
 	surfaceparm nonsolid
 	diffuseMap textures/perseus_custom_src/base01a_d
 	normalMap textures/perseus_custom_src/base01a_n
@@ -47,7 +47,7 @@ textures/perseus_custom/base01a_nonsolid
 
 textures/perseus_custom/fog
 {
-	qer_editorimage textures/common_src/black
+	qer_editorImage textures/common_src/black
 	qer_trans 	0.5
 	surfaceparm	trans
 	surfaceparm	nonsolid
@@ -61,7 +61,7 @@ textures/perseus_custom/fog
 
 textures/perseus_custom/blood3
 {
-	qer_editorimage textures/perseus_custom_src/blood3_d
+	qer_editorImage textures/perseus_custom_src/blood3_d
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm trans
@@ -76,7 +76,7 @@ textures/perseus_custom/blood3
 
 textures/perseus_custom/glass_02
 {
-	qer_editorimage textures/perseus_custom_src/scratchglass_d
+	qer_editorImage textures/perseus_custom_src/scratchglass_d
 	surfaceparm nomarks
 	surfaceparm trans
 	{
@@ -96,7 +96,7 @@ textures/perseus_custom/glass_02
 
 textures/perseus_custom/steam
 {
-	qer_editorimage textures/perseus_custom_src/steam_d
+	qer_editorImage textures/perseus_custom_src/steam_d
 	entityMergable
 	cull none
 	{
@@ -112,7 +112,7 @@ textures/perseus_custom/steam
 // tiny decal blue
 textures/perseus_custom/light01_blue
 {
-	qer_editorimage textures/perseus_custom_src/light01_blue_a
+	qer_editorImage textures/perseus_custom_src/light01_blue_a
 	normalMap textures/perseus_custom_src/light01_n
 	specularMap textures/perseus_custom_src/light01_s
 	surfaceparm nomarks
@@ -136,7 +136,7 @@ textures/perseus_custom/light01_blue
 // tiny decal red
 textures/perseus_custom/light01_red
 {
-	qer_editorimage textures/perseus_custom_src/light01_red_a
+	qer_editorImage textures/perseus_custom_src/light01_red_a
 	normalMap textures/perseus_custom_src/light01_n
 	specularMap textures/perseus_custom_src/light01_s
 	surfaceparm nomarks

@@ -1,7 +1,7 @@
 // skybox "Wasteland" by Ingar
 textures/perseus_env/sky
 {
-      qer_editorimage env/wasteland/wasteland
+      qer_editorImage env/wasteland/wasteland
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky

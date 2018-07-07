@@ -2,7 +2,7 @@
 
 textures/perseus_pk02/pk02_floor03
 {
-	qer_editorimage textures/perseus_pk02_src/pk02_floor03_d
+	qer_editorImage textures/perseus_pk02_src/pk02_floor03_d
 	normalMap textures/perseus_pk02_src/pk02_floor03_n
 	specularMap textures/perseus_pk02_src/pk02_floor03_s
 	surfaceparm trans
@@ -19,7 +19,7 @@ textures/perseus_pk02/pk02_floor03
 
 textures/perseus_pk02/pk02_floor07
 {
-	qer_editorimage textures/perseus_pk02_src/pk02_floor07_d
+	qer_editorImage textures/perseus_pk02_src/pk02_floor07_d
 	normalMap textures/perseus_pk02_src/pk02_floor07_n
 	specularMap textures/perseus_pk02_src/pk02_floor07_s
 	surfaceparm trans
@@ -38,7 +38,7 @@ textures/perseus_pk02/pk02_floor07
 
 textures/perseus_pk02/pk02_floor03s
 {
-	qer_editorimage textures/perseus_pk02_src/pk02_floor03_d
+	qer_editorImage textures/perseus_pk02_src/pk02_floor03_d
 	diffuseMap textures/perseus_pk02_src/pk02_floor03_d
    	normalMap textures/perseus_pk02_src/pk02_floor03_n
 	specularMap textures/perseus_pk02_src/pk02_floor03_s
@@ -48,7 +48,7 @@ textures/perseus_pk02/pk02_floor03s
 
 textures/perseus_pk02/pk02_floor07s
 {
-	qer_editorimage textures/perseus_pk02_src/pk02_floor07_d
+	qer_editorImage textures/perseus_pk02_src/pk02_floor07_d
 	diffuseMap textures/perseus_pk02_src/pk02_floor07_d
    	normalMap textures/perseus_pk02_src/pk02_floor07_n
 	specularMap textures/perseus_pk02_src/pk02_floor07_s
@@ -60,7 +60,7 @@ textures/perseus_pk02/pk02_floor07s
 
 textures/perseus_pk02/pk02_dec_num08
 {
-	qer_editorimage textures/perseus_pk02_src/pk02_dec_num08_d
+	qer_editorImage textures/perseus_pk02_src/pk02_dec_num08_d
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm trans
@@ -73,7 +73,7 @@ textures/perseus_pk02/pk02_dec_num08
 
 textures/perseus_pk02/pk02_dec_numC
 {
-	qer_editorimage textures/perseus_pk02_src/pk02_dec_numC_d
+	qer_editorImage textures/perseus_pk02_src/pk02_dec_numC_d
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm trans
@@ -89,7 +89,7 @@ textures/perseus_pk02/pk02_dec_numC
 // small yellow
 textures/perseus_pk02/pk02_light01a
 {
-	qer_editorimage textures/perseus_pk02_src/pk02_light01a_d
+	qer_editorImage textures/perseus_pk02_src/pk02_light01a_d
 	diffuseMap textures/perseus_pk02_src/pk02_light01a_d
 	normalMap textures/perseus_pk02_src/pk02_light01_n
 	specularMap textures/perseus_pk02_src/pk02_light01_s
@@ -106,7 +106,7 @@ textures/perseus_pk02/pk02_light01a
 // small yellow strong
 textures/perseus_pk02/pk02_light01a_8k
 {
-	qer_editorimage textures/perseus_pk02_src/pk02_light01a_d
+	qer_editorImage textures/perseus_pk02_src/pk02_light01a_d
 	diffuseMap textures/perseus_pk02_src/pk02_light01a_d
 	normalMap textures/perseus_pk02_src/pk02_light01_n
 	specularMap textures/perseus_pk02_src/pk02_light01_s
