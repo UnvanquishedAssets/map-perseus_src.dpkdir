@@ -47,7 +47,7 @@ textures/perseus_custom/base01a_nonsolid
 
 textures/perseus_custom/fog
 {
-	qer_editorImage textures/common_src/black
+	qer_editorImage textures/common_src/black_p
 	qer_trans 	0.5
 	surfaceparm	trans
 	surfaceparm	nonsolid
