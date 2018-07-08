@@ -61,7 +61,8 @@ textures/perseus_custom/fog
 
 textures/perseus_custom/blood3
 {
-	qer_editorImage textures/perseus_custom_src/blood3_d
+	qer_editorImage textures/perseus_custom_src/blood3_p
+	qer_alphaFunc greater 0.5
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm trans
