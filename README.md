@@ -17,7 +17,7 @@ Visit the [Unvanquished website](https://unvanquished.net/) for more information
 Legal
 -----
 
-Unless otherwise stated, the content of this package is available under the conditions of the [Creative Commons Attribution-Noncommercial-Share Alike 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/).
+Unless otherwise stated, the content of this package is available under the conditions of the [Creative Commons Attribution-Share Alike 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/).
 
 Some assets may use other licenses, consult [`about/map-perseus.txt`](about/map-perseus.txt) for more information about authors and licenses.
 
