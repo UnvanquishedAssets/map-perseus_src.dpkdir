@@ -48,7 +48,7 @@ textures/perseus_custom/base01a_nonsolid
 textures/perseus_custom/fog
 {
 	qer_editorImage textures/common_src/black_p
-	qer_trans 	0.5
+	qer_trans 	.5
 	surfaceparm	trans
 	surfaceparm	nonsolid
 	surfaceparm	fog
@@ -62,7 +62,7 @@ textures/perseus_custom/fog
 textures/perseus_custom/blood3
 {
 	qer_editorImage textures/perseus_custom_src/blood3_p
-	qer_alphaFunc greater 0.5
+	qer_alphaFunc greater .5
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm trans
@@ -83,7 +83,7 @@ textures/perseus_custom/glass_02
 	{
 		map textures/perseus_custom_src/scratchglass_d
 		blendfunc add
-		rgbGen const ( 0.1 0.1 0.1 )
+		rgbGen const ( .1 .1 .1 )
 	}
 	{
 		map $lightmap 

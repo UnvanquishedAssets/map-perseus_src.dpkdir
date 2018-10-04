@@ -23,7 +23,7 @@ perseus/steam
 		radius		0 5 40
 		alpha		250 .5 0
 		rotation	0 ~360 ~360
-		bounce		0.0
+		bounce		0
 
 		lifeTime 2000
 		}
@@ -42,7 +42,7 @@ perseus/lghtspark
     {
       shader sync gfx/sprites/spark
 
-      displacement 0 0 0 ~2.0
+      displacement 0 0 0 ~2
 
       velocityType 		static
       velocityDir 		linear
@@ -56,7 +56,7 @@ perseus/lghtspark
 
       bounce		.3
       radius		75 3 4
-      alpha		0 .5 .0
+      alpha		0 .5 0
       rotation	0 0 ~360
 
       lifeTime 2500
@@ -68,7 +68,7 @@ perseus/lghtspark
     {
       shader sync gfx/sprites/spark
 
-      displacement 0 0 0 ~2.0
+      displacement 0 0 0 ~2
 
       velocityType 		static
       velocityDir 		linear
@@ -82,7 +82,7 @@ perseus/lghtspark
 
       bounce		.3
       radius		75 3 4
-      alpha		0 .5 .0
+      alpha		0 .5 0
       rotation	0 0 ~360
 
       lifeTime 2500
