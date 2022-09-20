@@ -1,4 +1,4 @@
-/.paktrace/
+/.cache/
 /build/
 /maps/*/lm_*
 /maps/*.autosave.map
