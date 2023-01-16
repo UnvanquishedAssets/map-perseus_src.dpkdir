@@ -2,6 +2,7 @@
     title : Perseus: prison complex
     version : beta 5a
     release date : 2014-04-28
+    author : Paweł “Pevel” Micek
 
 -[LICENSE]---------------------------------------------------------------------
     Perseus map file is licensed under a
