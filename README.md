@@ -1,7 +1,7 @@
 Perseus game level for Unvanquished
 ===================================
 
-![Perseus levelshot](meta/perseus/perseus.png)
+![Perseus levelshot](meta/perseus/perseus.webp)
 
 
 About
