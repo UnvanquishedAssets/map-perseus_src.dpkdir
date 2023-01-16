@@ -1,5 +1,6 @@
 {
-  map       "perseus"
-  longname  "Perseus: prison complex (beta 5a)"
-  type      "tremulous"
+	map "perseus"
+	longname "Perseus: prison complex"
+	author "Pevel"
+	type "tremulous"
 }
