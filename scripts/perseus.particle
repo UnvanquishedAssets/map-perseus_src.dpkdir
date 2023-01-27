@@ -4,94 +4,95 @@ perseus/steam
 	{
 		particle
 		{
-		shader sync textures/perseus_custom/steam
-		displacement 0 0 0 0
+			shader sync textures/perseus_custom/steam
+			displacement 0 0 0 0
 
-		velocityType		static
-	
-		velocityDir		linear
-	
-		velocityMagnitude	50
-		velocity		0 0 -1 ~15
+			velocityType static
 
-		accelerationType	static
-		accelerationDir		linear
-		acceleration		0 0 -1 ~5
-		accelerationMagnitude	25
+			velocityDir linear
+
+			velocityMagnitude 50
+			velocity 0 0 -1 ~15
+
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~5
+			accelerationMagnitude 25
 
 
-		radius		0 5 40
-		alpha		250 .5 0
-		rotation	0 ~360 ~360
-		bounce		0
+			radius 0 5 40
+			alpha 250 .5 0
+			rotation 0 ~360 ~360
+			bounce 0
 
-		lifeTime 2000
+			lifeTime 2000
 		}
-	count infinite
-	delay 0
-	period 45 - ~0%
+
+		count infinite
+		delay 0
+		period 45 - ~0%
 	}
 }
 
 // from karith (tremulous map): by jex, edited by Godmil
 perseus/lghtspark
 {
-  ejector
-  {
-    particle
-    {
-      shader sync gfx/sprites/spark
+	ejector
+	{
+		particle
+		{
+			shader sync gfx/sprites/spark
 
-      displacement 0 0 0 ~2
+			displacement 0 0 0 ~2
 
-      velocityType 		static
-      velocityDir 		linear
-      velocity 		      1 0 0 ~25
-      velocityMagnitude 	100~50
+			velocityType static
+			velocityDir linear
+			velocity 1 0 0 ~25
+			velocityMagnitude 100~50
 
-      accelerationType	      static
-      accelerationDir		linear
-      acceleration 		0 0 -1 ~25
-      accelerationMagnitude 	600
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 600
 
-      bounce		.3
-      radius		75 3 4
-      alpha		0 .5 0
-      rotation	0 0 ~360
+			bounce .3
+			radius 75 3 4
+			alpha 0 .5 0
+			rotation 0 0 ~360
 
-      lifeTime 2500
+			lifeTime 2500
 
-      overdrawProtection
-    }
+			overdrawProtection
+		}
 
-    particle
-    {
-      shader sync gfx/sprites/spark
+		particle
+		{
+			shader sync gfx/sprites/spark
 
-      displacement 0 0 0 ~2
+			displacement 0 0 0 ~2
 
-      velocityType 		static
-      velocityDir 		linear
-      velocity 		      1 0 0 ~65
-      velocityMagnitude 	100~50
+			velocityType static
+			velocityDir linear
+			velocity 1 0 0 ~65
+			velocityMagnitude 100~50
 
-      accelerationType	static
-      accelerationDir		linear
-      acceleration 		0 0 -1 ~25
-      accelerationMagnitude 	300
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 300
 
-      bounce		.3
-      radius		75 3 4
-      alpha		0 .5 0
-      rotation	0 0 ~360
+			bounce .3
+			radius 75 3 4
+			alpha 0 .5 0
+			rotation 0 0 ~360
 
-      lifeTime 2500
+			lifeTime 2500
 
-      overdrawProtection
-    }
+			overdrawProtection
+		}
 
-    delay 0
-    count infinite
-    period 700 - ~100%
-  }
+		delay 0
+		count infinite
+		period 700 - ~100%
+	}
 }

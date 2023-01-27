@@ -11,8 +11,8 @@ textures/perseus_pk02/floor03
 	nopicmip
 
 	{
-		diffuseMap  textures/perseus_pk02_src/floor03_d
-		normalMap   textures/perseus_pk02_src/floor03_n
+		diffuseMap textures/perseus_pk02_src/floor03_d
+		normalMap textures/perseus_pk02_src/floor03_n
 		specularMap textures/perseus_pk02_src/floor03_s
 		alphafunc GE128
 	}
@@ -29,8 +29,8 @@ textures/perseus_pk02/floor07
 	nopicmip
 
 	{
-		diffuseMap  textures/perseus_pk02_src/floor07_d
-		normalMap   textures/perseus_pk02_src/floor07_n
+		diffuseMap textures/perseus_pk02_src/floor07_d
+		normalMap textures/perseus_pk02_src/floor07_n
 		specularMap textures/perseus_pk02_src/floor07_s
 		alphafunc GE128
 	}
@@ -46,8 +46,8 @@ textures/perseus_pk02/floor03s
 	surfaceparm metalsteps
 
 	{
-		diffuseMap  textures/perseus_pk02_src/floor03_d
-		normalMap   textures/perseus_pk02_src/floor03_n
+		diffuseMap textures/perseus_pk02_src/floor03_d
+		normalMap textures/perseus_pk02_src/floor03_n
 		specularMap textures/perseus_pk02_src/floor03_s
 	}
 }
@@ -60,8 +60,8 @@ textures/perseus_pk02/floor07s
 	surfaceparm metalsteps
 
 	{
-		diffuseMap  textures/perseus_pk02_src/floor07_d
-		normalMap   textures/perseus_pk02_src/floor07_n
+		diffuseMap textures/perseus_pk02_src/floor07_d
+		normalMap textures/perseus_pk02_src/floor07_n
 		specularMap textures/perseus_pk02_src/floor07_s
 	}
 }
@@ -78,7 +78,7 @@ textures/perseus_pk02/dec_num08
 	polygonoffset
 
 	{
-		map         textures/perseus_pk02_src/dec_num08_d
+		map textures/perseus_pk02_src/dec_num08_d
 		blendfunc filter
 	}
 }
@@ -93,7 +93,7 @@ textures/perseus_pk02/dec_numC
 	polygonoffset
 
 	{
-		map         textures/perseus_pk02_src/dec_numC_d
+		map textures/perseus_pk02_src/dec_numC_d
 		blendfunc filter
 	}
 }
@@ -112,10 +112,10 @@ textures/perseus_pk02/light01a
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/perseus_pk02_src/light01a_d
-		normalMap   textures/perseus_pk02_src/light01_n
+		diffuseMap textures/perseus_pk02_src/light01a_d
+		normalMap textures/perseus_pk02_src/light01_n
 		specularMap textures/perseus_pk02_src/light01_s
-		glowMap     textures/perseus_pk02_src/light01a_a
+		glowMap textures/perseus_pk02_src/light01a_a
 	}
 }
 
@@ -131,9 +131,9 @@ textures/perseus_pk02/light01a_8k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/perseus_pk02_src/light01a_d
-		normalMap   textures/perseus_pk02_src/light01_n
+		diffuseMap textures/perseus_pk02_src/light01a_d
+		normalMap textures/perseus_pk02_src/light01_n
 		specularMap textures/perseus_pk02_src/light01_s
-		glowMap     textures/perseus_pk02_src/light01a_a
+		glowMap textures/perseus_pk02_src/light01a_a
 	}
 }

@@ -11,8 +11,8 @@ textures/perseus_q4power/light_ceil1_yellow_4k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/perseus_q4power_src/light_ceil1_d
-		glowMap     textures/perseus_q4power_src/light_ceil1_yellow_a
+		diffuseMap textures/perseus_q4power_src/light_ceil1_d
+		glowMap textures/perseus_q4power_src/light_ceil1_yellow_a
 	}
 }
 
@@ -27,8 +27,8 @@ textures/perseus_q4power/light_ceil1_yellow
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/perseus_q4power_src/light_ceil1_d
-		glowMap     textures/perseus_q4power_src/light_ceil1_yellow_a
+		diffuseMap textures/perseus_q4power_src/light_ceil1_d
+		glowMap textures/perseus_q4power_src/light_ceil1_yellow_a
 	}
 }
 
@@ -43,8 +43,8 @@ textures/perseus_q4power/light_ceil1_blue_4k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/perseus_q4power_src/light_ceil1_d
-		glowMap     textures/perseus_q4power_src/light_ceil1_blue_a
+		diffuseMap textures/perseus_q4power_src/light_ceil1_d
+		glowMap textures/perseus_q4power_src/light_ceil1_blue_a
 	}
 }
 
@@ -59,8 +59,8 @@ textures/perseus_q4power/light_ceil1_blue
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/perseus_q4power_src/light_ceil1_d
-		glowMap     textures/perseus_q4power_src/light_ceil1_blue_a
+		diffuseMap textures/perseus_q4power_src/light_ceil1_d
+		glowMap textures/perseus_q4power_src/light_ceil1_blue_a
 	}
 }
 
@@ -79,10 +79,10 @@ textures/perseus_q4power/light_fifty_yellow
 	polygonoffset
 
 	{
-		diffuseMap  textures/perseus_q4power_src/light_fifty_d
-		normalMap   textures/perseus_q4power_src/light_fifty_n
+		diffuseMap textures/perseus_q4power_src/light_fifty_d
+		normalMap textures/perseus_q4power_src/light_fifty_n
 		specularMap textures/perseus_q4power_src/light_fifty_s
-		glowMap     textures/perseus_q4power_src/light_fifty_yellow_a
+		glowMap textures/perseus_q4power_src/light_fifty_yellow_a
 		alphafunc GE128
 	}
 }
@@ -102,10 +102,10 @@ textures/perseus_q4power/light_fifty_yellow_10k
 	polygonoffset
 
 	{
-		diffuseMap  textures/perseus_q4power_src/light_fifty_d
-		normalMap   textures/perseus_q4power_src/light_fifty_n
+		diffuseMap textures/perseus_q4power_src/light_fifty_d
+		normalMap textures/perseus_q4power_src/light_fifty_n
 		specularMap textures/perseus_q4power_src/light_fifty_s
-		glowMap     textures/perseus_q4power_src/light_fifty_yellow_a
+		glowMap textures/perseus_q4power_src/light_fifty_yellow_a
 		alphafunc GE128
 	}
 }
@@ -125,10 +125,10 @@ textures/perseus_q4power/light_fifty_yellow_15k
 	polygonoffset
 
 	{
-		diffuseMap  textures/perseus_q4power_src/light_fifty_d
-		normalMap   textures/perseus_q4power_src/light_fifty_n
+		diffuseMap textures/perseus_q4power_src/light_fifty_d
+		normalMap textures/perseus_q4power_src/light_fifty_n
 		specularMap textures/perseus_q4power_src/light_fifty_s
-		glowMap     textures/perseus_q4power_src/light_fifty_yellow_a
+		glowMap textures/perseus_q4power_src/light_fifty_yellow_a
 		alphafunc GE128
 	}
 }
@@ -148,16 +148,16 @@ textures/perseus_q4power/light_fifty_blue
 	polygonoffset
 
 	{
-		diffuseMap  textures/perseus_q4power_src/light_fifty_d
-		normalMap   textures/perseus_q4power_src/light_fifty_n
+		diffuseMap textures/perseus_q4power_src/light_fifty_d
+		normalMap textures/perseus_q4power_src/light_fifty_n
 		specularMap textures/perseus_q4power_src/light_fifty_s
-		glowMap     textures/perseus_q4power_src/light_fifty_blue_a
+		glowMap textures/perseus_q4power_src/light_fifty_blue_a
 		alphafunc GE128
 	}
 }
 
 // small round decal blue strong
-textures/perseus_q4power/light_fifty_blue_10k 
+textures/perseus_q4power/light_fifty_blue_10k
 {
 	qer_editorImage textures/perseus_q4power_src/light_fifty_blue_a
 
@@ -171,10 +171,10 @@ textures/perseus_q4power/light_fifty_blue_10k
 	polygonoffset
 
 	{
-		diffuseMap  textures/perseus_q4power_src/light_fifty_d
-		normalMap   textures/perseus_q4power_src/light_fifty_n
+		diffuseMap textures/perseus_q4power_src/light_fifty_d
+		normalMap textures/perseus_q4power_src/light_fifty_n
 		specularMap textures/perseus_q4power_src/light_fifty_s
-		glowMap     textures/perseus_q4power_src/light_fifty_blue_a
+		glowMap textures/perseus_q4power_src/light_fifty_blue_a
 		alphafunc GE128
 	}
 }
@@ -194,10 +194,10 @@ textures/perseus_q4power/light_fifty_red
 	polygonoffset
 
 	{
-		diffuseMap  textures/perseus_q4power_src/light_fifty_d
-		normalMap   textures/perseus_q4power_src/light_fifty_n
+		diffuseMap textures/perseus_q4power_src/light_fifty_d
+		normalMap textures/perseus_q4power_src/light_fifty_n
 		specularMap textures/perseus_q4power_src/light_fifty_s
-		glowMap     textures/perseus_q4power_src/light_fifty_red_a
+		glowMap textures/perseus_q4power_src/light_fifty_red_a
 		alphafunc GE128
 	}
 }
