@@ -63,7 +63,7 @@ textures/perseus_custom/base01a_nonsolid
 
 textures/perseus_custom/fog
 {
-	qer_editorImage textures/common_src/black_p
+	qer_editorImage textures/shared_colors_src/black_d
 	qer_trans .5
 	qer_nocarve
 
