@@ -104,15 +104,9 @@ textures/perseus_custom/glass_02
 	surfaceparm trans
 
 	{
-		map textures/perseus_custom_src/scratchglass_d
-		blendfunc add
-		rgbGen const ( .1 .1 .1 )
-	}
-	{
-		map $lightmap
-		blendfunc gl_dst_color gl_src_alpha
-		rgbGen identity
-		tcGen lightmap
+		diffusemap textures/perseus_custom_src/scratchglass_d
+		blendfunc blend
+		alphaGen const .1
 	}
 }
 
